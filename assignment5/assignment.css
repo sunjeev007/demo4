@@ -1,0 +1,149 @@
+.from {
+
+    width: 38%;
+    display: block;
+    float: left;
+    margin: auto;
+    margin-left: 4rem;
+}
+
+.to {
+    width: 38%;
+    display: block;
+    float: right;
+    margin: auto;
+    margin-right: 4rem;
+}
+
+.content {
+    width: fit-content;
+    display: block;
+    margin: auto;
+}
+
+h1 {
+    font-size: 4em;
+    text-align: center;
+    background: -webkit-linear-gradient(rgb(184, 22, 122), rgb(9, 59, 105));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h2 {
+    text-decoration: underline overline;
+}
+
+fieldset {
+    display: block;
+    margin: 1.0rem auto;
+    text-align: center;
+
+}
+
+label {
+    font-size: larger;
+}
+
+input {
+    width: fit-content;
+    height: 50px;
+    text-align: center;
+    font-size: x-large;
+}
+
+input:hover {
+    background: rgb(4, 213, 250);
+}
+
+select:hover {
+    background: rgb(157, 19, 199);
+}
+
+select {
+    width: fit-content;
+    height: 50px;
+    font-size: xx-large;
+}
+
+.but {
+    font-size: 3rem;
+    display: block;
+    margin: auto;
+    background: rgb(24, 23, 23);
+    color: rgb(1, 248, 248);
+}
+
+.but:hover {
+    background-color: rgb(9, 196, 93);
+    color: rgb(207, 50, 50);
+}
+
+body {
+    background: linear-gradient(to right, rgb(15, 112, 238), rgb(35, 180, 120), rgb(163, 54, 54));
+    font-family: 'Roboto', sans-serif;
+
+    margin: 0 auto;
+
+
+}
+
+input.submit {
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: x-large;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #f44336;
+
+}
+
+input.submit:hover {
+    background-color: #05bd4b;
+}
+
+.from-table {
+    background: rgba(0, 0, 0, .3);
+}
+
+.to-table {
+    background: rgba(0, 0, 0, .3);
+}
+
+.package {
+    background: rgba(0, 0, 0, .3);
+}
+
+table {
+    padding: 10px;
+    color: rgb(205, 226, 243);
+    border: solid black;
+}
+
+td {
+    border: 1px dashed black;
+    padding: .2em .5em .2em .5em;
+    vertical-align: top;
+    text-align: left;
+}
+
+th {
+    color: black;
+}
+
+span {
+    background: rgba(0, 0, 0, .5);
+}
+
+.message {
+    background: rgba(248, 241, 241, 0.705);
+    color: rgb(0, 0, 0)
+}
+
+footer {
+    color: white;
+}
